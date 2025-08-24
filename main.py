@@ -166,7 +166,7 @@ def run_periodically(refresh_sec, func):
         now = time.time()
         # 1시간(3600초)마다 메시지 전송
         if now - last_notify_time >= 3600:
-            telegramMsg("working")  # <- 여기에 보냄
+            #telegramMsg("working")  # <- 여기에 보냄
             print("working")
             last_notify_time = now
             
